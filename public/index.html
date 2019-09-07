@@ -1,0 +1,240 @@
+<html>
+<head>
+  <link rel ="stylesheet" href="style2.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <title> Survey Form </title>
+</head>
+<body background ="survey page1.jpg">
+  <header>
+      <u>Survey Form</u>
+  </header>
+  <!--
+  form starts
+  -->
+  <form id="survey-form" method="post" action="/login">
+    <h1 id="title"> Leave us a Review </h1>
+    <p>
+      <div id="description">
+        <em><u>Your reviews and suggestions are valuable to us...</u></em>
+      </div>
+    </p>
+    <!--
+    Information about costumer i.e. name, email and number
+  -->
+  <div class="user-info">
+    <div class="name">
+      <div class="left">
+        <label id="name-label" for="name">*Name: </label>
+      </div>
+      <div class="right">
+        <input type ="text" id="name" placeholder="Enter your Full Name" name ="name" value required></input>
+      </div>
+    </div>
+    <div class="email">
+      <div class="left">
+        <label id="email-label" for="email">*Email: </label>
+      </div>
+      <div class="right">
+        <input required id="email" type required ="text" placeholder="example123@abc.com" name = "email"></input>
+      </div>
+    </div>
+    <div class="number">
+      <div class="left">
+        <label id="number-label" for="number">*Number: </label>
+      </div>
+      <div class="right">
+        <input id="number" type required ="text" placeholder="Contact-no."name = "number"></input>
+      </div>
+    </div>
+
+    <!--
+    Information about Restaurant
+  -->
+  <!--
+  Info about no. of visits
+-->
+<div class="visits">
+  <div class="left">
+    <label for="no. of visits">How often do you visit our Restaurant in a Month:</label>
+  </div>
+  <div class="right">
+    <select id="dropdown" name="visits">
+      <option value="default" name="visits">Select a Value</option>
+      <option value="once" name="visits">Less than 2 times</option>
+      <option value="thrice" name="visits">2-4 times</option>
+      <option value="more" name="visits">More than 4 times</option>
+    </select>
+  </div>
+</div>
+<!--
+Info about meal prefernce
+-->
+<div class="meal">
+  <div class="left">
+    <label for="meal-prefernce">Which meal of our Restaurant do you prefer the most:</label>
+  </div>
+  <div class="right" >
+    <select id="dropdown" name="meal">
+      <option value="default" name="meal">Select a Value</option>
+      <option value="Snacks" name="meal">Snacks</option>
+      <option value="Lunch" name="meal">Lunch</option>
+      <option value="Dinner" name="meal">Dinner</option>
+    </select>
+  </div>
+</div>
+</div>
+<hr>
+<!--
+Ratings of Restaurent
+-->
+<h2>Rate your Satisfaction with-</h2>
+<div class="Satisfaction">
+<ul>
+<li>
+      <div class="left">
+        <label for ="taste">Taste of Food-</label>
+      </div>
+      <div class="right">
+        <label for="taste of food">
+          <input id="taste of food" value="poor" type="radio" name="tasteOfFood">Poor
+        </label>
+        <label for="taste of food">
+          <input id="taste of food" value="average" type="radio" name="tasteOfFood">Average
+        </label>
+        <label for="taste of food">
+          <input id="taste of food" value="good" type="radio" name="tasteOfFood">Good
+        </label>
+        <label for="taste of food">
+          <input id="taste of food" value="excellent" type="radio" name="tasteOfFood">Excellent
+        </label>
+      </div>
+    </li>
+    <li>
+      <div class="left">
+        <label for ="Service-Speed">Food service speed-</label>
+      </div>
+      <div class="right">
+        <label for="Service-speed">
+          <input id="Service-speed" value="poor" type="radio" name="serviceSpeed">Poor
+        </label>
+        <label for="Service-speed">
+          <input id="Service-speed" value="average" type="radio" name="serviceSpeed">Average
+        </label>
+        <label for="Service-speed">
+          <input id="Service-speed" value="good" type="radio" name="serviceSpeed">Good
+        </label>
+        <label for="Service-speed">
+          <input id="Service-speed" value="fast" type="radio" name="serviceSpeed">Fast
+        </label>
+
+      </div>
+    </li>
+    <li>
+      <div class="left">
+        <label for ="Food-Quality">Quality of food-</label>
+      </div>
+      <div class="right">
+        <label for="Food-Quality">
+          <input id="Food-Quality" value="poor" type="radio" name="foodQuality">Poor
+        </label>
+        <label for="Food-Quality">
+          <input id="Food-Quality" value="average" type="radio" name="foodQuality">Average
+        </label>
+        <label for="Food-Quality">
+          <input id="Food-Quality" value="good" type="radio" name="foodQuality">Good
+        </label>
+        <label for="Food-Quality">
+          <input id="Food-Quality" value="excellent" type="radio" name="foodQuality">Excellent
+        </label>
+      </div>
+    </li>
+    <li>
+      <div class="left">
+        <label for ="Food-Presentation">Food Presentation-</label>
+      </div>
+      <div class="right">
+        <label for="Food-Presentation">
+          <input id="Food-Presentation" value="poor" type="radio" name="foodPresentation">Poor
+        </label>
+        <label for="Food-Presentation">
+          <input id="Food-Presentation" value="average" type="radio" name="foodPresentation">Average
+        </label>
+        <label for="Food-Presentation">
+          <input id="Food-Presentation" value="good" type="radio" name="foodPresentation">Good
+        </label>
+        <label for="Food-Presentation">
+          <input id="Food-Presentation" value="excellent" type="radio" name=foodPresentation">Excellent
+        </label>
+      </div>
+    </li>
+  </ul>
+</div>
+<hr>
+<!--
+other preferences
+-->
+<h2>Other Preferences-</h2>
+<div class="preferences">
+<ul>
+  <li>
+    <div class="left">
+      <label for ="Cleaniness">Cleaniness-</label>
+    </div>
+    <div class="right">
+      <label for="Cleaniness">
+        <input id="Cleaniness" value="poor" type="radio" name= "cleaniness">Poor
+      </label>
+      <label for="Cleaniness">
+        <input id="Cleaniness" value="average" type="radio" name="cleaniness">Average
+      </label>
+      <label for="Cleaniness">
+        <input id="Cleaniness" value="good" type="radio" name="cleaniness">Good
+      </label>
+      <label for="Cleaniness">
+        <input id="Cleaniness" value="excellent" type="radio" name="cleaniness">Excellent
+      </label>
+    </div>
+  </li>
+  <li>
+    <div class="left">
+      <label for ="Accomodation">Accomodation-</label>
+    </div>
+    <div class="right">
+      <label for="Accomodation">
+        <input id="Accomodation" value="poor" type="radio" name="accomodation">Poor
+      </label>
+      <label for="Accomodation">
+        <input id="Accomodation" value="average" type="radio" name="accomodation">Average
+      </label>
+      <label for="Accomodation">
+        <input id="Accomodation" value="good" type="radio" name="accomodation">Good
+      </label>
+      <label for="Accomodation">
+        <input id="Accomodation" value="excellent" type="radio" name="accomodation">Excellent
+      </label>
+    </div>
+  </li>
+  </ul>
+  </div>
+  <hr>
+  <!--
+  Recommendation to your friend
+-->
+<!--
+favourite dish of costumer
+-->
+<div class ="fav-dish">
+  <div class ="left">
+    <label for="favourite dish">Which Dish of our Restaurant you like the most:</label>
+  </div>
+  <div class="right">
+    <input id="fav-dish" type="text" name="favDish" placeholder="Mention your favourite dish....">
+  </div>
+</div>
+<button id="button3">Submit</button>
+</form>
+<footer>
+  For more information contact- chetanjainsrs@gmail.com
+</footer>
+</body>
+</html>

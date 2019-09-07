@@ -1,0 +1,293 @@
+header{
+    font: Raleway;
+    font-size: 40px;
+    display: block;
+    margin: 50 auto;
+    text-align: center;
+  }
+  input[type="radio"]{
+    margin: 0 10px 0 10px;
+  }
+  #survey-form{
+    margin: 68 88 auto 88;
+    background-color: #919396;
+    height: 950px;
+    display: block;
+    border-color: black;
+    border-width: 70px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 50px rgba(0,0,0,0.23);
+  }
+  #title{
+    font-size: 40px;
+    font-family: Raleway
+    padding: 10px;
+    text-align: center;
+  }
+  #description{
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+  }
+  #name{
+    margin: 12px;
+    font-family: Raleway;
+    width: 150px;
+    height: 35px;
+    border-width: 1px;
+    border-color: black;
+  }
+  #number{
+    margin: 12px;
+    font-family: Raleway;
+    width: 150px;
+    height: 35px;
+  border-width: 1px;
+    border-color: black;
+  }
+  #email{
+    margin: 12px;
+    font-family: Raleway;
+    width: 150px;
+    height: 35px;
+    border-color: black;
+    border-width: 1px;
+  }
+  #button3{
+    text-align: center;
+    font-family:Raleway;
+    height:30px;
+    width:60px;
+    border-width: 1px;
+    border-color: black;
+  }
+  #button1:hover{
+    background-color: #9ab5e0;
+  }
+  #button3:hover{
+    background-color: #9ab5e0;
+    margin: 12px;
+  }
+  #button1{
+    border-width: 1px;
+    border-color: black;
+  }
+  #button2{
+    border-width: 1px;
+      border-color: black;
+  }
+  #button2:hover{
+    background-color: #9ab5e0;
+  }
+  #dropdown:hover{
+    background-color: #9ab5e0
+  }
+  #fav-dish{
+    width: 170px;
+    height: 50px;
+    margin: 10px;
+      border-color: black;
+      border-width: 1px;
+  }
+  #dropdown{
+    font-family: Raleway;
+    padding: 7px;
+    border-color: black;
+  width: 150px;
+  }
+  #button1,#button2{
+    width: 100px;
+    height: 30px;
+  }
+  .button{
+    width: 150px;
+    height: 30px;
+  }
+  .list-items{
+    margin: 12px;
+  }
+  .Recommendation{
+    margin: 12px;
+  }
+  .fav-dish{
+    margin: 12px;
+  }
+  h2{
+    text-align: center;
+  }
+  .visits{
+    margin: 12px;
+  }
+  li{
+    margin: 12px;
+  }
+  .meal{
+    margin: 12px;
+  }
+  .right{
+    font-size: 22px;
+    display: inline-block;
+    font-family: Raleway;
+    text-align: left;
+    width: 40%;
+  }
+  .left{
+    font-size: 22px;
+    display: inline-block;
+    font-family: Raleway;
+    text-align: right;
+    width: 45%;
+  }
+  footer{
+    font-family: Raleway;
+    text-align: center;
+    margin: 95px;
+    font-size:25px;
+    color: #181919
+  }
+header{
+  font: Raleway;
+  font-size: 40px;
+  display: block;
+  margin: 50 auto;
+  text-align: center;
+}
+input[type="radio"]{
+  margin: 0 10px 0 10px;
+}
+#survey-form{
+  margin: 68 88 auto 88;
+  background-color: #919396;
+  height: 950px;
+  display: block;
+  border-color: black;
+  border-width: 70px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 50px rgba(0,0,0,0.23);
+}
+#title{
+  font-size: 40px;
+  font-family: Raleway
+  padding: 10px;
+  text-align: center;
+}
+#description{
+  text-align: center;
+  font-family: Raleway;
+  font-size: 18px;
+}
+#name{
+  margin: 12px;
+  font-family: Raleway;
+  width: 150px;
+  height: 35px;
+  border-width: 1px;
+  border-color: black;
+}
+#number{
+  margin: 12px;
+  font-family: Raleway;
+  width: 150px;
+  height: 35px;
+border-width: 1px;
+  border-color: black;
+}
+#email{
+  margin: 12px;
+  font-family: Raleway;
+  width: 150px;
+  height: 35px;
+  border-color: black;
+  border-width: 1px;
+}
+#button3{
+  text-align: center;
+  font-family:Raleway;
+  height:30px;
+  width:60px;
+  border-width: 1px;
+  border-color: black;
+}
+#button1:hover{
+  background-color: #9ab5e0;
+}
+#button3:hover{
+  background-color: #9ab5e0;
+  margin: 12px;
+}
+#button1{
+  border-width: 1px;
+  border-color: black;
+}
+#button2{
+  border-width: 1px;
+    border-color: black;
+}
+#button2:hover{
+  background-color: #9ab5e0;
+}
+#dropdown:hover{
+  background-color: #9ab5e0
+}
+#fav-dish{
+  width: 170px;
+  height: 50px;
+  margin: 10px;
+    border-color: black;
+    border-width: 1px;
+}
+#dropdown{
+  font-family: Raleway;
+  padding: 7px;
+  border-color: black;
+width: 150px;
+}
+#button1,#button2{
+  width: 100px;
+  height: 30px;
+}
+.button{
+  width: 150px;
+  height: 30px;
+}
+.list-items{
+  margin: 12px;
+}
+.Recommendation{
+  margin: 12px;
+}
+.fav-dish{
+  margin: 12px;
+}
+h2{
+  text-align: center;
+}
+.visits{
+  margin: 12px;
+}
+li{
+  margin: 12px;
+}
+.meal{
+  margin: 12px;
+}
+.right{
+  font-size: 22px;
+  display: inline-block;
+  font-family: Raleway;
+  text-align: left;
+  width: 40%;
+}
+.left{
+  font-size: 22px;
+  display: inline-block;
+  font-family: Raleway;
+  text-align: right;
+  width: 45%;
+}
+footer{
+  font-family: Raleway;
+  text-align: center;
+  margin: 95px;
+  font-size:25px;
+  color: #181919
+}
+  
