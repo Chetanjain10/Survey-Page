@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const {mongoose} = require('./db.js')
 const {customer} =require('./models/customer.js')
 
-
+const port = process.env.PORT || 3000;
 var app = express();
 app.use(bodyParser.json())
 app.use(express.static(__dirname +'/public'));
@@ -31,13 +31,13 @@ app.post('/login', (req,res)=>{
         console.log(doc);
     }
     else{
-        res.send("try again")
+        res.send("Try Again")
         console.log(JSON.stringify(err,undefined,2))
     }
     });
 });
 
 
-app.listen(3000,()=>{
-    console.log('server started at port: 3000')
+app.listen(port,()=>{
+    console.log(`server started at port: ${port}`)
 });
